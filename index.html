@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+    <script src="script.js"></script>
+    <script src="chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Wetter Neuwied</title>
+</head>
+
+<body onload="init();">
+    
+    <div class="titlebox">
+       <h1>Wetter Neuwied</h1>
+       <div class="now">
+            Aktuell: <br>
+            <div class="list">
+                <div class="bulletpoint">Temperatur: <div><b id="currentHour"></b> °C</div></div>
+                <div class="bulletpoint">Feuchte: <div><b id="currentHumidity"></b> %</div></div>
+            </div>
+       </div>
+    </div>
+    
+    <p id="facts"></p>
+
+    <div class="canvas">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <div class="canvas">
+        <canvas id="myChartToday"></canvas>
+    </div>
+
+
+</body>
+
+</html>

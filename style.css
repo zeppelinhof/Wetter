@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: 'Actor';
+}
+
+
+.titlebox{
+    background-color: rgba(0, 0, 0, 20%);
+}
+
+h1{
+    padding: 24px;
+    text-align: center;
+    margin-block-start: 0;
+}
+
+.now{
+    padding: 24px;
+    background-color: aliceblue;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    font-size: 24px;
+}
+
+.canvas{
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.list{
+    padding-top: 12px;
+    padding-left: 24px;
+    width: 250px;
+}
+
+.bulletpoint{
+    display: flex;
+    justify-content: space-between;
+}
